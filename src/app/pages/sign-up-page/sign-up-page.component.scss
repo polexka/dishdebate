@@ -1,0 +1,40 @@
+.sign-up-page-wrapper {
+  background: linear-gradient(-45deg, #f095e18c, #e73c7e8c, #b9e6f78c, #e6b2f38c);
+  background-size: 400% 400%;
+  animation: gradient 100s ease-in-out infinite;
+  height: calc(100vh * 0.93);
+  padding-top: calc(100vh * 0.07);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.sign-up-form-wrapper {
+  margin: 0 auto;
+  width: 550px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  border-radius: 24px;
+
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(196, 196, 196, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(196, 196, 196, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(196, 196, 196, 0.75);
+}
+
+.sign-up-form-title {
+  text-align: center;
+}
